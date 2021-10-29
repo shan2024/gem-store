@@ -1,0 +1,46 @@
+#shop {
+    min-height:95vh;
+    width:100vw;
+    background-image: url(../images/mainimage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shop-platform {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color: white;
+    width: 80%;
+    /* margin-top: ; */
+    min-height: 80%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y:auto;
+}
+
+#shop-title {
+    font-family: Baloo Thambi, sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 10px;
+}
+
+#shop-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-decoration: none;
+}
+
+.shop-link {
+    text-decoration: none;
+}

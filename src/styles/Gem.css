@@ -1,0 +1,144 @@
+.gem-container {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gem {
+    text-decoration: none;
+    color:black;
+    width:350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    font-family: Baloo Thambi, sans-serif;
+    gap:5%;
+
+    transition: all 0.2s ease 0s;
+
+
+}
+.gem:hover {
+    width:370px;
+    height: 475.7px;
+}
+
+.gem .images {
+    width:90%;
+    height: 70%;
+}
+
+.gem .gem-name {
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    letter-spacing: 5px;
+    
+
+}
+
+.gem .gem-cost {
+    text-align: center;
+    text-decoration: none;
+    font-family: Baloo Thambi, sans-serif;
+    font-size: 100%;
+    letter-spacing: 5px;
+}
+
+
+/* descriptoin of item */
+
+.item-desc-background {
+    min-height:95vh;
+    width:100vw;
+    background-image: url(../images/mainimage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-desc {
+    width: 70%;
+    min-height: 80vh;
+    background-color: white;
+
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+
+    font-family: Baloo Thambi, sans-serif;
+    letter-spacing: 5px;
+    flex-wrap: wrap;
+}
+
+.item-image {
+    width:700px;
+    min-height: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+.item-desc-info {
+    min-height: 700px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+.item-name {
+    font-size: 50px;
+}
+
+.item-cost {
+
+}
+
+.item-description {
+    width:90%;
+    letter-spacing: 3px;
+
+}
+
+.add-cart-button {
+    padding:5px;
+    align-self: center;
+    margin-top: auto;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 18.75px;
+
+}
+
+.add-cart-button:hover {
+    background-color: black;
+    color:white;
+}
+
+.back-shop-button {
+    padding: 5px;
+    align-self: center;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 18.75px;
+}
+.back-shop-button:hover {
+    background-color: black;
+    color:white;
+
+}

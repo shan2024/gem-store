@@ -1,0 +1,146 @@
+.cart-background {
+    min-height:95vh;
+    width:100vw;
+    background-image: url(../images/mainimage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    min-height: 80vh;
+    background-color: white;
+
+
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+
+    font-family: Baloo Thambi, sans-serif;
+    letter-spacing: 5px;
+    flex-wrap: wrap;
+}
+
+.cart-title {
+    font-family: Baloo Thambi, sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 10px;
+}
+
+.cart-items {
+
+}
+
+.cart-total {
+    margin-top: auto;
+}
+
+.cart-payment-button {
+    margin-top: 15px;
+    padding: 5px;
+    align-self: center;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 18.75px;
+}
+
+.cart-payment-button:hover {
+    background-color: black;
+    color:white;
+}
+
+.cart-shop-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    align-self: center;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 18.75px;
+}
+
+.cart-shop-button:hover {
+    background-color: black;
+    color:white;
+}
+
+
+/* the cart items */
+.item {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+.cart-item-image {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+.cart-desc {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.cart-item-name {
+    font-family: Baloo Thambi,sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.cart-item-cost {
+    font-family: Baloo Thambi,sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.add-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.add-button button {
+    border-style: none;
+    border-radius: 50%;
+    width:20px;
+    height: 20px;
+    background-color: rgb(73, 64, 64);
+    color: white;
+    font-family: 70px;
+}
+
+.add-button button:hover {
+    opacity: .7;
+}
+
+.add-button p {
+    width: 20px;
+}
+
+

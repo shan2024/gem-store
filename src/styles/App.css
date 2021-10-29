@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Megrim&display=swap');
+* {
+    margin:0;
+    padding:0;
+}
+
+/* nav bar stuff */
+#nav {
+    height: 5vh;
+    width:100vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    padding:5px;
+    font-family: Baloo Thambi, sans-serif;
+    transition: all 0.5s ease 0s;
+    letter-spacing: 3px;
+
+}
+
+.nav-link:hover {
+    color:black;
+    background-color: white;
+    padding:5px;
+}
+
+
+#home-link {
+    margin-right: auto;
+    margin-left: 3vw;
+    font-family: Megrim, sans-serif;
+}
+
+#cart-link {
+    margin-right: 3vw;
+}
+
+/* main body stuff */
+#home {
+    min-height: 95vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-image: url(../images/mainimage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-title {
+    font-family: Megrim, sans-serif;
+    color:white;
+    padding:10px;
+    background-color: black;
+    font-size: 80px;
+    margin-top: 20vh;
+}
+
+#main-quote {
+    visibility: hidden;
+    margin-top: 10px;
+    font-family: Baloo Thambi, sans-serif;
+    color:white;
+    background-color: black;
+}
+
+#main-button {
+    font-family: Baloo Thambi, sans-serif;
+    letter-spacing: 10px;
+    padding:10px;
+    background-color: black;
+    color:white;
+    transition: all 0.5s ease 0s;
+
+}
+
+#main-button:hover {
+    background-color: white;
+    color:black;
+}
+
+#shop-link {
+    margin-top: 30vh;
+    text-decoration: none;
+}
