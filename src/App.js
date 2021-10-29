@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { HashRouter,BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { useState } from "react";
 import Home from "./components/Home";
 import Shop from "./components/Shop";
@@ -57,7 +57,7 @@ function removeGem(gemName){
 
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar />
       <Switch>
         <Route exact path = "/" component = {Home}/>
@@ -65,7 +65,7 @@ function removeGem(gemName){
         <Route exact path = "/cart" render={(props) => <Cart {...props}  cart = {cart} addGem = {addGem} removeGem = {removeGem}/>} />
         <Route exact path = "/itemdesc" render={(props) => <ItemDesc {...props} addGem = {addGem} selectedItem = {selectedItem} />} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

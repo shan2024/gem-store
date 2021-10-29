@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gem-store/static/css/main.2d664bfe.chunk.css",
+    "main.js": "/gem-store/static/js/main.14396bc5.chunk.js",
+    "main.js.map": "/gem-store/static/js/main.14396bc5.chunk.js.map",
+    "runtime-main.js": "/gem-store/static/js/runtime-main.dad52238.js",
+    "runtime-main.js.map": "/gem-store/static/js/runtime-main.dad52238.js.map",
+    "static/js/2.306446b7.chunk.js": "/gem-store/static/js/2.306446b7.chunk.js",
+    "static/js/2.306446b7.chunk.js.map": "/gem-store/static/js/2.306446b7.chunk.js.map",
+    "index.html": "/gem-store/index.html",
+    "static/css/main.2d664bfe.chunk.css.map": "/gem-store/static/css/main.2d664bfe.chunk.css.map",
+    "static/js/2.306446b7.chunk.js.LICENSE.txt": "/gem-store/static/js/2.306446b7.chunk.js.LICENSE.txt",
+    "static/media/Images.css": "/gem-store/static/media/sapphire.1309d433.jpg",
+    "static/media/App.css": "/gem-store/static/media/mainimage2.8f84efa9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dad52238.js",
+    "static/js/2.306446b7.chunk.js",
+    "static/css/main.2d664bfe.chunk.css",
+    "static/js/main.14396bc5.chunk.js"
+  ]
+}
